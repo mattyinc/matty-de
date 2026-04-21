@@ -1231,7 +1231,6 @@ for(let i=0;i<8;i++){
 
 // ─── STATE ────────────────────────────────────────────────────────
 const state = { checks: JSON.parse(localStorage.getItem('de_checks')||'{}'), activeDay: null };
-function saveChecks(){ localStorage.setItem('de_checks', JSON.stringify(state.checks)) }
 
 function toggleCheck(key){
   state.checks[key] = !state.checks[key];
