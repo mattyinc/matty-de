@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Data files (too large for GitHub)
+data/raw/
+data/clean/
+
+# Font files
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# HTML files
+*.html
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac junk
+.DS_Store
+
+# Environment variables
+.env
